@@ -50,7 +50,7 @@ MyLMS/
  ┃ ┗ test/
  ┣ pom.xml
  ┗ README.md
-
+```
 
 ## 🗓 개발 기간
 **2025.09.04 ~ 2025.10.14 (6주)**
@@ -63,7 +63,7 @@ git clone https://github.com/donghyeonyang984-collab/MyLMS.git
 cd MyLMS
 mvn clean package
 java -jar target/mylms-0.0.1-SNAPSHOT.jar
-
+```
 ---
 
 🔗 관련 링크
