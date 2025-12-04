@@ -1,5 +1,5 @@
 # 🎓 MyLMS
-> Spring Boot & JDBC 기반으로 개발된 온라인 학습 관리 플랫폼 (LMS)
+> Spring Boot & JDBC 기반의 온라인 학습 관리 플랫폼 (LMS)
 
 ---
 
@@ -39,18 +39,17 @@ MyLMS는 강의 수강, 구매, 장바구니, 쪽지 기능 등
 ---
 
 ## 🧩 프로젝트 구조 (간단 예시)
-
-MYLMS/
+```text
+MyLMS/
  ┣ src/
  ┃ ┣ main/
- ┃ ┃ ┣ java/com/example/lms/
+ ┃ ┃ ┣ java/com/example/mylms/
  ┃ ┃ ┣ resources/
  ┃ ┃ ┃ ┣ static/
  ┃ ┃ ┃ ┗ templates/
  ┃ ┗ test/
  ┣ pom.xml
  ┗ README.md
----
 
 
 ## 🗓 개발 기간
