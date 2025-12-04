@@ -39,17 +39,17 @@ MyLMS는 강의 수강, 구매, 장바구니, 쪽지 기능 등
 ---
 
 ## 🧩 프로젝트 구조 (간단 예시)
-MyLMS/
-┣ src/
-┃ ┣ main/
-┃ ┃ ┣ java/com/example/mylms/
-┃ ┃ ┣ resources/
-┃ ┃ ┃ ┣ static/
-┃ ┃ ┃ ┗ templates/
-┃ ┗ test/
-┣ pom.xml
-┗ README.md
 
+MYLMS/
+ ┣ src/
+ ┃ ┣ main/
+ ┃ ┃ ┣ java/com/example/lms/
+ ┃ ┃ ┣ resources/
+ ┃ ┃ ┃ ┣ static/
+ ┃ ┃ ┃ ┗ templates/
+ ┃ ┗ test/
+ ┣ pom.xml
+ ┗ README.md
 ---
 
 
