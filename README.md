@@ -1,12 +1,12 @@
-# 🎓 MyLMS  
-> Spring Boot & JDBC 기반의 온라인 학습 관리 플랫폼 (LMS)
+# 🎓 MyLMS
+> Spring Boot & JDBC 기반으로 개발된 온라인 학습 관리 플랫폼 (LMS)
 
 ---
 
 ## 📘 프로젝트 소개
-**MyLMS**는 강의 수강, 구매, 장바구니, 쪽지 기능 등  
+MyLMS는 강의 수강, 구매, 장바구니, 쪽지 기능 등  
 기본적인 LMS 기능을 모두 포함한 온라인 학습 플랫폼입니다.  
-사용자 로그인 역할에 따라 **헤더/사이드바 UI가 동적으로 변경**되는 구조를 직접 설계했습니다.
+로그인 역할에 따라 **헤더/사이드바 UI가 동적으로 변경**되는 구조를 직접 설계했습니다.
 
 ---
 
@@ -31,31 +31,51 @@
 ---
 
 ## 🔥 핵심 구현 포인트
-- **역할 기반 UI 자동 렌더링 구조 개발**
-  - 로그인 시 사용자 유형(관리자/수강생)에 따라 메뉴 동적 표시
-- **장바구니 → 결제 흐름 구현**
-  - 상품 구매, 결제 완료, 구매 여부 검증까지 전 과정 처리
-- **강의 진도율 관리**
-  - 재생 위치 저장 및 수강 완료 자동 감지 로직 설계
-- **Front + Back 자연스러운 연동**
-  - Thymeleaf 기반으로 페이지 구조 설계 및 컨트롤러 연동
+- **역할 기반 UI 자동 렌더링 구조 개발:** 로그인 시 사용자 유형(Admin/User)에 따라 메뉴 동적 표시  
+- **장바구니 → 결제 흐름 구현:** 상품 구매, 결제 완료, 구매 여부 검증까지 전 과정 처리  
+- **강의 진도율 관리:** 재생 위치 저장 및 수강 완료 자동 감지 로직 구현  
+- **Front + Back 자연스러운 연동:** Thymeleaf 기반으로 페이지 구조 설계 및 컨트롤러 연동  
 
 ---
+
+## 🧩 프로젝트 구조 (간단 예시)
+MyLMS/
+┣ src/
+┃ ┣ main/
+┃ ┃ ┣ java/com/example/mylms/
+┃ ┃ ┣ resources/
+┃ ┃ ┃ ┣ static/
+┃ ┃ ┃ ┗ templates/
+┃ ┗ test/
+┣ pom.xml
+┗ README.md
+
+---
+
 
 ## 🗓 개발 기간
 **2025.09.04 ~ 2025.10.14 (6주)**
 
 ---
 
-## 🧩 프로젝트 구조
+## 📦 실행 방법
 ```bash
-MyLMS/
- ┣ src/
- ┃ ┣ main/
- ┃ ┃ ┣ java/com/example/mylms/
- ┃ ┃ ┣ resources/
- ┃ ┃ ┃ ┣ static/
- ┃ ┃ ┃ ┗ templates/
- ┃ ┗ test/
- ┣ pom.xml
- ┗ README.md
+git clone https://github.com/donghyeonyang984-collab/MyLMS.git
+cd MyLMS
+mvn clean package
+java -jar target/mylms-0.0.1-SNAPSHOT.jar
+
+---
+
+🔗 관련 링크
+
+포트폴리오 문서: Notion 바로가기
+
+---
+
+
+📜 License
+
+이 프로젝트는 개인 학습 및 포트폴리오 용도로 작성되었습니다.
+
+
